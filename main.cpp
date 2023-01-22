@@ -8,7 +8,7 @@
  * 基于简单遗传算法的正函数极值计算框架
  */
 
-#include "GeneSFlow.h"
+#include "GeneSFlow/GeneSFlow.h"
 
 double Fx(double x)
 {
