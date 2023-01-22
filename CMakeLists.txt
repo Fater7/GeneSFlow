@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1.0) 
+project(GeneSFlow)
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+aux_source_directory(. DIR_SRCS)
+add_executable(GeneSFlow ${DIR_SRCS})
